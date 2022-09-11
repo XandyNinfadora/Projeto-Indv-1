@@ -3,14 +3,18 @@
 
 @font-face {
     font-family: 'Fonrine-Leight';
-    src: url(Fornire-Light.otf) format('truetype');
+    src: url(Fornire-Light.otf) format('opentype');
     font-weight: normal;
     font-style: normal;
-    font-family:'Little-Boy'; 
-    src: url(LittleBoy.otf) format('opentype');
 
 }
+@font-face {
+    src: url(MonospaceTypewriter.ttf) format('truetype');
+    font-family:'Monospace-Typewriter';
+    font-weight: normal;
+    font-style: normal;
 
+}
 
 body{
     background-color:rgb(21, 21, 21);
