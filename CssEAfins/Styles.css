@@ -1,3 +1,14 @@
+/* As Fontes 
+*/
+
+@font-face {
+    font-family: 'Fonrine-Leight';
+    src: url(Fornire-Light.otf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 body{
     background-color:rgb(21, 21, 21);
 }
@@ -14,7 +25,7 @@ IMG.displayed {
 h1 {
     color: rgb(243, 237, 71);
     text-align: center;
-    font-family: 'Fornire Light';
+    font-family: 'Fonrine-Leight';
     font-size: 80px;
 }
 
@@ -23,19 +34,15 @@ h3 {
     text-align: center;
     font-family: 'MonospaceTypewriter';
     font-size: 22px;
-    font-weight: bold;
+    font-weight: bolder;
 }
 
-h4{
-    text-align: center;
-    font-family: 'Press Start 2P', cursive;
-}
 
 .Conteudo{
     color: rgb(180, 175, 32);
     text-align: justify;
     font-family: sofia-pro, sans-serif;
-    font-style: normal;
+    font-weight: normal;
     font-size: 12px;
     padding: auto;
     margin-top: 5%;
@@ -51,4 +58,8 @@ h4{
     text-align: center;
     font-size: 8px;
     margin-bottom: 3%;
+    font-weight: normal;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+
 }
