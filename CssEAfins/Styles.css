@@ -10,12 +10,7 @@ IMG.displayed {
 
 
 }
-IMG.Lado {
-    display: block;
-    margin-top: 5%;
-    margin-left: auto;
-    margin-right: auto;
-}
+
 h1 {
     color: rgb(243, 237, 71);
     text-align: center;
