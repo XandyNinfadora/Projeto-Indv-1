@@ -1,27 +1,12 @@
-/* A fonte do início e a dos títulos 
-*/
+                             /*Fundo*/
 
-@font-face {
-    font-family: 'Fonrine-Leight';
-    src: url(Fornire-Light.otf) format('opentype');
-    font-weight: normal;
-    font-style: normal;
-
-}
-@font-face {
-    src: url(MonospaceTypewriter.ttf) format('truetype');
-    font-family:'Monospace-Typewriter';
-    font-weight: normal;
-    font-style: normal;
-
-}
-/* Fundo
-*/
 body{
     background-color:rgb(21, 21, 21);
+
 }
-/* Logo 221B
-*/
+
+                             /*Logo 221B*/
+
 IMG.displayed {
     display: block;
     margin-top: 5%;
@@ -32,10 +17,10 @@ IMG.displayed {
     border-radius: 8px;
     margin-bottom: 30px;
 
-
 }
-/* Títulos-Apresentação das páginas 
-*/
+
+                            /*Títulos-Apresentação das páginas*/
+
 h1 {
     margin-top: 120px;
     color: rgb(243, 237, 71);
@@ -43,92 +28,93 @@ h1 {
     font-family: 'Fonrine-Leight';
     font-size: 80px;
 }
-/* Subtítulos
-*/
-h3 {
-    color: rgb(255, 249, 249);
-    text-align: center;
-    font-family: 'Monospace-Typewriter';
-    font-size: 22px;
-    font-weight: bolder;
-}
 
-/* Botões P1-Who Are You/P2-Why So Serious?/P3-How I Contat Ya?
-*/
+            /* Botões P1-Who Are You/P2-Why So Serious?/P3-How I Contat Ya? */
+
 #P1-Button {
-    opacity: 0.8;
-    box-shadow: 3px 5px 0 #f7f4da;
-    background-color: #dbc601;
-    border: 2px outset rgba(199, 191, 111, 0.549);
-    border-radius: 8px;
-    display: inline-block;
-    position:absolute;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 5px;
-    height: 35px;
-    margin-left: 10%;
-    font-family: 'Fonrine-Leight';
-    font-size: 25px;
-    font-weight: bolder;
-    width: auto;
-    text-decoration: none;
     color: rgb(21, 21, 21);
-}
-
-#P2-Button {
-    opacity: 0.8;
-    box-shadow: 3px 5px 0 #f7f4da;
     background-color: #dbc601;
     border: 2px outset rgba(199, 191, 111, 0.549);
-    border-radius: 8px;
-    display: inline-block;
-    position:absolute;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 5px;
-    height: 35px;
-    margin-left: 43%;
-    font-family: 'Fonrine-Leight';
-    font-size: 25px;
-    font-weight: bolder;
-    text-decoration: none;
-    color: rgb(21, 21, 21);
-
-}
-
-#P3-Button {
-    opacity: 0.8;
     box-shadow: 3px 5px 0 #f7f4da;
-    background-color: #dbc601;
-    border: 2px outset rgba(199, 191, 111, 0.549);
+    opacity: 0.8;
     border-radius: 8px;
     display: inline-block;
     position: absolute;
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 5px;
-    height: 35px;
-    right: 100px;
     font-family: 'Fonrine-Leight';
     font-size: 25px;
     font-weight: bolder;
-    width: auto;
     text-decoration: none;
+    height: 35px;
+    margin-left: 10%;
+    width: auto;
+}
+
+#P2-Button {
     color: rgb(21, 21, 21);
-    
+    background-color: #dbc601;
+    border: 2px outset rgba(199, 191, 111, 0.549);
+    box-shadow: 3px 5px 0 #f7f4da;
+    opacity: 0.8;
+    border-radius: 8px;
+    display: inline-block;
+    position: absolute;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    font-family: 'Fonrine-Leight';
+    font-size: 25px;
+    font-weight: bolder;
+    text-decoration: none;
+    height: 35px;
+    margin-left: 43%;
+    width: auto;
 
 }
 
+#P3-Button {
+    color: rgb(21, 21, 21);
+    background-color: #dbc601;
+    border: 2px outset rgba(199, 191, 111, 0.549);
+    box-shadow: 3px 5px 0 #f7f4da;
+    opacity: 0.8;
+    border-radius: 8px;
+    display: inline-block;
+    position: absolute;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    font-family: 'Fonrine-Leight';
+    font-size: 25px;
+    font-weight: bolder;
+    text-decoration: none;
+    height: 35px;
+    right: 100px;
+    width: auto;
+ 
 
-/* Formatação do texto 
-*/
+}
+
+                             /*Subtítulos*/
+
+h3 {
+    color: rgb(255, 249, 249);
+    font-family: 'Monospace-Typewriter';
+    text-align: center;
+    font-size: 22px;
+    font-weight: bolder;
+
+}
+
+                             /* Formatação do texto */
 .Conteudo{
     color: rgb(180, 175, 32);
-    text-align: justify;
     font-family: sofia-pro, sans-serif;
-    font-weight: normal;
+    text-align: justify;
     font-size: 12px;
+    font-weight: normal;
     padding: auto;
     margin-top: 5%;
     margin-left: 8%;
@@ -136,18 +122,35 @@ h3 {
     line-height: 1.5;
     text-indent: 2em;
 }
-/* Formatação do fim da página e imagem
-*/
+
+                          /* Formatação do fim da página e imagem*/
+
 .Creditos{
-    margin-top: 10%;
     color: rgb(255, 249, 249);
+    font-family: 'Press Start 2P', cursive;
     text-align: center;
     font-size: 8px;
-    margin-bottom: 3%;
     font-weight: normal;
-    text-align: center;
-    font-family: 'Press Start 2P', cursive;
+    margin-top: 10%;
+    margin-bottom: 3%;
     max-width: 100%;
     height: auto;
+
+}
+
+                     /* A fonte do início e a dos títulos */
+@font-face {
+    font-family: 'Fonrine-Leight';
+    src: url(Fornire-Light.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family:'Monospace-Typewriter';
+    src: url(MonospaceTypewriter.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
 
 }
