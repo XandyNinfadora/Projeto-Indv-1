@@ -27,12 +27,14 @@ IMG.displayed {
     margin-right: auto;
     max-width: 100%;
     height: auto;
-    border-radius: 8px
+    border-radius: 8px;
+    margin-bottom: 30px;
 
 
 }
 
 h1 {
+    margin-top: 120px;
     color: rgb(243, 237, 71);
     text-align: center;
     font-family: 'Fonrine-Leight';
@@ -48,6 +50,73 @@ h3 {
 }
 
 
+#P1-Button {
+    opacity: 0.8;
+    box-shadow: 3px 5px 0 #f7f4da;
+    background-color: #dbc601;
+    border: 2px outset rgba(199, 191, 111, 0.549);
+    border-radius: 8px;
+    display: inline-block;
+    position:absolute;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    height: 35px;
+    margin-left: 10%;
+    font-family: 'Fonrine-Leight';
+    font-size: 25px;
+    font-weight: bolder;
+    width: auto;
+    text-decoration: none;
+    color: rgb(21, 21, 21);
+}
+
+#P2-Button {
+    opacity: 0.8;
+    box-shadow: 3px 5px 0 #f7f4da;
+    background-color: #dbc601;
+    border: 2px outset rgba(199, 191, 111, 0.549);
+    border-radius: 8px;
+    display: inline-block;
+    position:absolute;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    height: 35px;
+    margin-left: 43%;
+    font-family: 'Fonrine-Leight';
+    font-size: 25px;
+    font-weight: bolder;
+    text-decoration: none;
+    color: rgb(21, 21, 21);
+
+}
+
+#P3-Button {
+    opacity: 0.8;
+    box-shadow: 3px 5px 0 #f7f4da;
+    background-color: #dbc601;
+    border: 2px outset rgba(199, 191, 111, 0.549);
+    border-radius: 8px;
+    display: inline-block;
+    position: absolute;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    height: 35px;
+    right: 100px;
+    font-family: 'Fonrine-Leight';
+    font-size: 25px;
+    font-weight: bolder;
+    width: auto;
+    text-decoration: none;
+    color: rgb(21, 21, 21);
+    
+
+}
+
+
+
 .Conteudo{
     color: rgb(180, 175, 32);
     text-align: justify;
@@ -59,7 +128,7 @@ h3 {
     margin-left: 8%;
     margin-right: 8%;
     line-height: 1.5;
-    text-indent: 2em
+    text-indent: 2em;
 }
 
 .Creditos{
