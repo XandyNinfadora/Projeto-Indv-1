@@ -15,11 +15,13 @@
     font-style: normal;
 
 }
-
+/* Fundo
+*/
 body{
     background-color:rgb(21, 21, 21);
 }
-
+/* Logo 221B
+*/
 IMG.displayed {
     display: block;
     margin-top: 5%;
@@ -32,7 +34,8 @@ IMG.displayed {
 
 
 }
-
+/* Títulos-Apresentação das páginas 
+*/
 h1 {
     margin-top: 120px;
     color: rgb(243, 237, 71);
@@ -40,7 +43,8 @@ h1 {
     font-family: 'Fonrine-Leight';
     font-size: 80px;
 }
-
+/* Subtítulos
+*/
 h3 {
     color: rgb(255, 249, 249);
     text-align: center;
@@ -49,7 +53,8 @@ h3 {
     font-weight: bolder;
 }
 
-
+/* Botões P1-Who Are You/P2-Why So Serious?/P3-How I Contat Ya?
+*/
 #P1-Button {
     opacity: 0.8;
     box-shadow: 3px 5px 0 #f7f4da;
@@ -116,7 +121,8 @@ h3 {
 }
 
 
-
+/* Formatação do texto 
+*/
 .Conteudo{
     color: rgb(180, 175, 32);
     text-align: justify;
@@ -130,7 +136,8 @@ h3 {
     line-height: 1.5;
     text-indent: 2em;
 }
-
+/* Formatação do fim da página e imagem
+*/
 .Creditos{
     margin-top: 10%;
     color: rgb(255, 249, 249);
