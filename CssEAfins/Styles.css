@@ -1,11 +1,28 @@
-                             /*Fundo*/
+                        /* A fonte do início e a dos títulos */
+@font-face {
+font-family: 'Fonrine-Leight';
+src: url(Fornire-Light.otf) format('opentype');
+font-weight: normal;
+font-style: normal;
+
+}
+
+@font-face {
+font-family:'Monospace-Typewriter';
+src: url(MonospaceTypewriter.ttf) format('truetype');
+font-weight: normal;
+font-style: normal;
+
+}
+
+                            /*Fundo*/
 
 body{
     background-color:rgb(21, 21, 21);
 
 }
 
-                             /*Logo 221B*/
+                            /*Logo 221B*/
 
 IMG.displayed {
     display: block;
@@ -27,75 +44,45 @@ h1 {
     text-align: center;
     font-family: 'Fonrine-Leight';
     font-size: 80px;
+
 }
+                            /*DIV para funfar o flex-box*/
 
-            /* Botões P1-Who Are You/P2-Why So Serious?/P3-How I Contat Ya? */
+.Menu {
+    /*Orientação do botão*/
+    display: flex;
+    justify-content:space-evenly;
+    flex-wrap:wrap;
 
-#P1-Button {
+}    
+                            /* Botões para as páginas P1,P2 e P3 */
+    .Botoes { 
+    /*Cor e Sombra*/
     color: rgb(21, 21, 21);
     background-color: #dbc601;
     border: 2px outset rgba(199, 191, 111, 0.549);
     box-shadow: 3px 5px 0 #f7f4da;
     opacity: 0.8;
-    border-radius: 8px;
-    display: inline-block;
-    position: absolute;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 5px;
+
+    /*Tamanho da caixinha*/
+
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+
+    /*Pertinentes a fonte*/
     font-family: 'Fonrine-Leight';
     font-size: 25px;
     font-weight: bolder;
     text-decoration: none;
-    height: 35px;
-    margin-left: 10%;
-    width: auto;
+
+    /*Sobre espaçamento entre as caixinhas*/
+    margin-top: 30px;
+    
 }
 
-#P2-Button {
-    color: rgb(21, 21, 21);
-    background-color: #dbc601;
-    border: 2px outset rgba(199, 191, 111, 0.549);
-    box-shadow: 3px 5px 0 #f7f4da;
-    opacity: 0.8;
-    border-radius: 8px;
-    display: inline-block;
-    position: absolute;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 5px;
-    font-family: 'Fonrine-Leight';
-    font-size: 25px;
-    font-weight: bolder;
-    text-decoration: none;
-    height: 35px;
-    margin-left: 43%;
-    width: auto;
-
-}
-
-#P3-Button {
-    color: rgb(21, 21, 21);
-    background-color: #dbc601;
-    border: 2px outset rgba(199, 191, 111, 0.549);
-    box-shadow: 3px 5px 0 #f7f4da;
-    opacity: 0.8;
-    border-radius: 8px;
-    display: inline-block;
-    position: absolute;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 5px;
-    font-family: 'Fonrine-Leight';
-    font-size: 25px;
-    font-weight: bolder;
-    text-decoration: none;
-    height: 35px;
-    right: 100px;
-    width: auto;
- 
-
-}
 
                              /*Subtítulos*/
 
@@ -107,9 +94,9 @@ h3 {
     font-weight: bolder;
 
 }
+                            /* DIV Formatação do texto */
 
-                             /* Formatação do texto */
-.Conteudo{
+.Conteudo {
     color: rgb(180, 175, 32);
     font-family: sofia-pro, sans-serif;
     text-align: justify;
@@ -121,11 +108,11 @@ h3 {
     margin-right: 8%;
     line-height: 1.5;
     text-indent: 2em;
+
 }
+                             /* DIV Formatação do fim da página e imagem*/
 
-                          /* Formatação do fim da página e imagem*/
-
-.Creditos{
+.Creditos {
     color: rgb(255, 249, 249);
     font-family: 'Press Start 2P', cursive;
     text-align: center;
@@ -135,22 +122,5 @@ h3 {
     margin-bottom: 3%;
     max-width: 100%;
     height: auto;
-
-}
-
-                     /* A fonte do início e a dos títulos */
-@font-face {
-    font-family: 'Fonrine-Leight';
-    src: url(Fornire-Light.otf) format('opentype');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family:'Monospace-Typewriter';
-    src: url(MonospaceTypewriter.ttf) format('truetype');
-    font-weight: normal;
-    font-style: normal;
 
 }
