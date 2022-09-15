@@ -39,6 +39,12 @@ h1 {
     font-size: 80px;
 }
 
+/*Efeito passar sobre as letras mudar de cor */
+h1:hover {
+    color: rgb(255, 255, 255);
+    transition: 2s;
+}
+
 /*DIV para funfar o flex-box*/
 .Menu {
     /*Orientação do botão*/
